@@ -67,23 +67,22 @@
   flutter_svg: ^2.0.5
 
 # Directory Structure
-lib
-D:.
-├───controller
-│   ├───news_bloc
-│   └───news_cubit
-├───helper
-│   ├───local
-│   └───remote
-├───model
-├───shared
-│   ├───constants
-│   │   └───bloc_observer
-│   └───styles
-└───view
-    ├───onboarding
-    ├───screens
-    │   ├───home
-    │   ├───layout
-    │   └───search
-    └───widgets
+   lib
+   ├───controller
+   │   ├───news_bloc
+   │   └───news_cubit
+   ├───helper
+   │   ├───local
+   │   └───remote
+   ├───model
+   ├───shared
+   │   ├───constants
+   │   │   └───bloc_observer
+   │   └───styles
+   └───view
+       ├───onboarding
+       ├───screens
+       │   ├───home
+       │   ├───layout
+       │   └───search
+       └───widgets
