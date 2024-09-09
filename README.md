@@ -1,4 +1,4 @@
-# Name application ✅
+![onboarding Screen](https://github.com/user-attachments/assets/55847d57-67aa-4c24-9bb2-c4f4b29b7ec5)# Name application ✅
    Daily News Application
 
 **App Description**
@@ -50,6 +50,15 @@
 
 # Snapshots
 
+![splash Screen](https://github.com/user-attachments/assets/f474605c-34d4-4adc-9184-b82f00d07b57)
+
+ [-] Onboarding Screen
+
+![onboarding Screen](https://github.com/user-attachments/assets/64a0f5d5-7d33-484c-abd1-7fcbd0dbf084)
+
+ [-] HomeLayout
+
+![Home Screen](https://github.com/user-attachments/assets/4290df22-063d-46d7-8f7d-027e3de17cdd)
 
 # packages & Dependencies
   cupertino_icons: ^1.0.2
