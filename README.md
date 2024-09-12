@@ -1,4 +1,4 @@
-![onboarding Screen](https://github.com/user-attachments/assets/55847d57-67aa-4c24-9bb2-c4f4b29b7ec5)# Name application ✅
+# Name application ✅
    Daily News Application
 
 **App Description**
@@ -54,7 +54,8 @@
 
  [-] Onboarding Screen
 
-![onboarding Screen](https://github.com/user-attachments/assets/64a0f5d5-7d33-484c-abd1-7fcbd0dbf084)
+![Onboarding Screen](https://github.com/user-attachments/assets/1058fbe6-7fd4-4bff-a194-dc2abae6502e)
+
 
  [-] HomeLayout
 
