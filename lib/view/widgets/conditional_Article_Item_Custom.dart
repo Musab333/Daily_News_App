@@ -10,6 +10,7 @@ Widget conditionalArticleItemCustom({
   isSearch = false,
 }) =>
     ConditionalBuilder(
+      //listArticleItem.length >0,
       condition: listArticleItem.isNotEmpty,
       builder: (context) => ListView.separated(
         physics: const BouncingScrollPhysics(),

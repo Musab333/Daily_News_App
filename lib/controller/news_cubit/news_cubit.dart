@@ -78,7 +78,7 @@ class NewsCubit extends Cubit<NewsState> {
   void getSports() {
     emit(NewsGetSportsLoadingState());
 
-    if (sports.length == 0) {
+    if (sports.isEmpty) {
       DioHelper.getData(
         url: PATH,
         query: {
@@ -106,7 +106,7 @@ class NewsCubit extends Cubit<NewsState> {
   void getScience() {
     emit(NewsGetScienceLoadingState());
 
-    if (science.length == 0) {
+    if (science.isEmpty) {
       DioHelper.getData(
         url: PATH,
         query: {
@@ -137,7 +137,7 @@ class NewsCubit extends Cubit<NewsState> {
     DioHelper.getData(
       url: PATH_SEARCH,
       query: {
-        'q': '$value',
+        'q': value,
         'apiKey': APIKEY,
       },
     ).then((value) {

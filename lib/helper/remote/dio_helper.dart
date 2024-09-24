@@ -2,12 +2,22 @@ import 'package:dio/dio.dart';
 import 'package:news/helper/remote/end_points.dart';
 
 class DioHelper {
+  //static Dio dio;
   static Dio dio = Dio(
     BaseOptions(
       baseUrl: BASE_URL,
       receiveDataWhenStatusError: true,
     ),
   );
+
+  static init() {
+    dio = Dio(
+      BaseOptions(
+        baseUrl: BASE_URL,
+        receiveDataWhenStatusError: true,
+      ),
+    );
+  }
 
   static Future<Response> getData({
     required String url,
