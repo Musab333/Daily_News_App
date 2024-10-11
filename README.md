@@ -3,7 +3,7 @@
 
 **App Description**
 
-    "Daily News" is a modern news application that provides you with the latest updates from reliable sources, categorized into three main sections: Business News, Sports News, and Science News. The app features a simple and user-friendly interface, with a home screen that allows quick access to the news that matters to you.
+ "Daily News" is a modern news application that provides you with the latest updates from reliable sources, categorized into three main sections: Business News, Sports News, and Science News. The app features a simple and user-friendly interface, with a home screen that allows quick access to the news that matters to you.
 
 **Key Features of the App:**
 
@@ -22,15 +22,15 @@
    - When you tap on any news item, you are directly redirected to the official website of the news article to read the full details.
 
 # Technology app
-    - Flutter
-    - Dart 
-    - Api News 
+   - Flutter
+   - Dart 
+   - Api News 
 
 # Architecture Pattern
-    MVC Architecture 
+ MVC Architecture 
 
 # State Management
-    BLoC/Cubit Statemanagement
+ BLoC/Cubit Statemanagement
 
 # Screens
 - [1] Onboarding Screen
@@ -56,7 +56,6 @@
 
 ![Onboarding Screen](https://github.com/user-attachments/assets/1058fbe6-7fd4-4bff-a194-dc2abae6502e)
 
-
  [-] HomeLayout
 
 ![Home Screen](https://github.com/user-attachments/assets/4290df22-063d-46d7-8f7d-027e3de17cdd)
@@ -78,21 +77,21 @@
 
 # Directory Structure
    lib
-   ├───controller
-   │   ├───news_bloc
-   │   └───news_cubit
-   ├───helper
-   │   ├───local
-   │   └───remote
-   ├───model
-   ├───shared
-   │   ├───constants
-   │   │   └───bloc_observer
-   │   └───styles
-   └───view
-       ├───onboarding
-       ├───screens
-       │   ├───home
-       │   ├───layout
-       │   └───search
-       └───widgets
+      ├───controller
+      │   ├───news_bloc
+      │   └───news_cubit
+      ├───helper
+      │   ├───local
+      │   └───remote
+      ├───model
+      ├───shared
+      │   ├───constants
+      │   │   └───bloc_observer
+      │   └───styles
+      └───view
+          ├───onboarding
+          ├───screens
+          │   ├───home
+          │   ├───layout
+          │   └───search
+          └───widgets
