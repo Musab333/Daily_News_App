@@ -4,7 +4,7 @@ const BASE_URL = 'https://newsapi.org/v2/';
 // End points
 const PATH = 'top-headlines/';
 const PATH_SEARCH = 'everything/';
-const COUNTRY = 'eg';
+const COUNTRY = 'eg/';
 
 // category
 const BUSINESS = 'business';
